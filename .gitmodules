@@ -1,3 +1,6 @@
 [submodule "WebLinkage"]
 	path = WebLinkage
 	url = https://iSoftBox2020@dev.azure.com/iSoftBox2020/Data%20Linkage/_git/WebLinkage
+[submodule "web-server"]
+	path = web-server
+	url = https://iSoftBox2020@dev.azure.com/iSoftBox2020/Data%20Linkage/_git/WebLinkage
