@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  php:
+    build: .dockerconfig/php
+    volumes:
+      - .dockerconfig/php/conf.d:/user/local/etc/php/conf.d
+      - ./WebLinkage:/var/www/html
+    expose:
+      - 9000
